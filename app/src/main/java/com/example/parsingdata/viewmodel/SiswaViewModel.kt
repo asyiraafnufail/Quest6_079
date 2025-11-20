@@ -15,7 +15,7 @@ class SiswaViewModel : ViewModel (){
         _statusUI.update { statusSaatIni -> statusSaatIni.copy(
             nama = ls[0],
             gender = ls[1],
-            alamat = ls[3]
+            alamat = ls[2]
         )
         }
     }
