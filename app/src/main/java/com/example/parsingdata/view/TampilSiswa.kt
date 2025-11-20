@@ -35,7 +35,7 @@ fun TampilSiswa(
     onBackBtnClick:()->Unit
 ){
     val items = listOf(
-        Pair(stringResource(id = R.string.nama_lengkap), statusUiSiswa.nama),
+        Pair(stringResource(id = R.string.nama), statusUiSiswa.nama),
         Pair(stringResource(id = R.string.gender), statusUiSiswa.gender),
         Pair(stringResource(id = R.string.aLamat), statusUiSiswa.alamat)
     )
