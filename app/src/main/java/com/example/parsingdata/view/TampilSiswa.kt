@@ -29,7 +29,7 @@ import com.example.parsingdata.R
 @OptIn(ExperimentalMaterial3Api::class)
 
 @Composable
-fun TampilData(
+fun TampilSiswa(
     onBackBtnClick:()->Unit
 ){
     val items = listOf(
