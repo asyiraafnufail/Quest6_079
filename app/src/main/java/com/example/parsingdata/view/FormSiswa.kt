@@ -73,7 +73,7 @@ fun FormSiswa(
                 .padding(20.dp)
                 .width(250.dp), thickness = Thickness, color = Color.Red)
             Row{
-                JenisK.forEach {
+                pilihanJK.forEach {
                         item ->
                     Row(verticalAlignment = Alignment.CenterVertically){
                         RadioButton(
@@ -97,7 +97,7 @@ fun FormSiswa(
             Spacer(modifier = Modifier.height(30.dp))
             Button(
                 modifier = Modifier.fillMaxWidth(1f),
-                onClick =  OnSubmitBtnClick
+                onClick =  onSubmitButtonClicked
             ){
                 Text(text = stringResource(id = R.string.submit))
             }
