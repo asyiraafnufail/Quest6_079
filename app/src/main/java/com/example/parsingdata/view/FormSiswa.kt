@@ -97,11 +97,13 @@ fun FormSiswa(
                 .padding(20.dp)
                 .width(250.dp), thickness = 1.dp, color = Color.Red)
             OutlinedTextField(
-                value = "",
+                value = txtAlamat,
                 singleLine = true,
                 modifier = Modifier.width(250.dp),
                 label = { Text(text = "Alamat") },
-                onValueChange = {},
+                onValueChange = {
+                    txtAlamat = it
+                },
             )
             Spacer(modifier = Modifier.height(30.dp))
             Button(
