@@ -61,7 +61,7 @@ fun FormSiswa(
             verticalArrangement = Arrangement.Top,
             horizontalAlignment = Alignment.CenterHorizontally){
             OutlinedTextField(
-                value = "",
+                value = txtNama,
                 singleLine = true,
                 modifier = Modifier
                     .padding(top = 20.dp)
