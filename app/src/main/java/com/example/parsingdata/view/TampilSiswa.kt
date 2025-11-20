@@ -32,7 +32,7 @@ import com.example.parsingdata.model.Siswa
 @Composable
 fun TampilSiswa(
     statusUiSiswa: Siswa,
-    onBackBtnClick:()->Unit
+    onSubmitButtonClick:()->Unit
 ){
     val items = listOf(
         Pair(stringResource(id = R.string.nama), statusUiSiswa.nama),
