@@ -2,9 +2,11 @@
     <string name="app_name">ParsingData</string>
     <string name="submit">Submit</string>
     <string name="back">Back</string>
-    <string name="nama_lengkap">NAMA LENGKAP</string>
-    <string name="jenis_kelamin">JENTS KELANIN</string>
-    <string name="aLamat">ALAMAT</string>
+    <string name="nama_lengkap">Nama Lengkap</string>
+    <string name="jenis_kelamin">Jenis Kelamin</string>
+    <string name="aLamat">Alamat</string>
     <string name="tampil">Tampilan Data</string>
     <string name="home">Form Isian</string>
+    <string name="lanang">Lanang</string>
+    <string name="wedok">Wedok</string>
 </resources>
