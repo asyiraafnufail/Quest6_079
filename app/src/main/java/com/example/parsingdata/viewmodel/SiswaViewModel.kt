@@ -1,6 +1,7 @@
 package com.example.parsingdata.viewmodel
 
 import androidx.lifecycle.ViewModel
+import androidx.room.util.copy
 import com.example.parsingdata.model.Siswa
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
