@@ -1,7 +1,6 @@
 package com.example.parsingdata.viewmodel
 
 import androidx.lifecycle.ViewModel
-import androidx.room.util.copy
 import com.example.parsingdata.model.Siswa
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
@@ -9,7 +8,7 @@ import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
 
 class SiswaViewModel : ViewModel (){
-    private val _statusUI = MutableStateFlow(siswa())
+    private val _statusUI = MutableStateFlow(Siswa())
             val statusUI: StateFlow<Siswa> = _statusUI.asStateFlow()
 
     fun setSiswa(ls: MutableList<String>){

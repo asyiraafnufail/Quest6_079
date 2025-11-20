@@ -25,7 +25,7 @@ enum class Navigasi {
 
 @Composable
 fun SiswaApp(
-    modifier: Modifier = Modifier,
+    modifier: Modifier,
     viewModel: SiswaViewModel = viewModel(),
     navController: NavHostController = rememberNavController(),
 ) {
@@ -56,7 +56,7 @@ fun SiswaApp(
             composable(route = Navigasi.Detail.name) {
                 TampilSiswa(
                     statusUiSiswa = uiState.value,
-                    onBackButtonClicked = { cancelAndBackToFormulirku(navController)
+                    onBackButtonClick = { cancelAndBackToFormulirku(navController)
                     }
                 )
             }
